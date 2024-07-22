@@ -10,7 +10,8 @@ image = Image.open(r"Inno.png")  # Ensure this path is correct
 
 # Display the image
 st.image(image, caption='Sample Image', use_column_width=True)
-st.title("Estimation of Time Project")
+st.title("Estimation of Time ML Project")
+st.subheader("By Patwari Raghottam")
 start_lat = st.number_input("Enter the start latitude:",)
 start_lang = st.number_input("Enter the start longitude:")
 end_lat = st.number_input("Enter the destination latitude:")
