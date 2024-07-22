@@ -10,6 +10,7 @@ image = Image.open(r"C:\Users\RAGHAVENDRA KUMAR\OneDrive\Pictures\Screenshots\In
 
 # Display the image
 st.image(image, caption='Sample Image', use_column_width=True)
+st.title("Estimation of Time Project")
 start_lat = st.number_input("Enter the start latitude:",)
 start_lang = st.number_input("Enter the start longitude:")
 end_lat = st.number_input("Enter the destination latitude:")
