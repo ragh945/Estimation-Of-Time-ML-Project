@@ -5,8 +5,8 @@ from sklearn.linear_model import LinearRegression
 import pickle
 from PIL import Image
 
-model = model=pickle.load(open("estimator.pkl","rb"))
-image = Image.open(r"C:\Users\RAGHAVENDRA KUMAR\OneDrive\Pictures\Screenshots\Inno.png")  # Ensure this path is correct
+model = model=pickle.load(open(r"estimator.pkl","rb"))
+image = Image.open(r"Inno.png")  # Ensure this path is correct
 
 # Display the image
 st.image(image, caption='Sample Image', use_column_width=True)
