@@ -25,7 +25,7 @@ link : https://estimation-project-4zxpwmfyw7fpdcdr9qgux6.streamlit.app/
 - Weather Condition: The weather condition (e.g., rainy, foggy, clear).
 - Day: The day of the project.
 - Hour: The hour of the project.
-- 
+
   ## Submit the inputs to get the estimated time:
 - Click on the Submit button.
 - The estimated time will be displayed on the screen.
